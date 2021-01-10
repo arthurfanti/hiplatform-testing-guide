@@ -1,0 +1,23 @@
+{
+  "name": "hiplatform-testing-guide",
+  "version": "1.0.0",
+  "description": "Ambitious guide to try and document the software testing process for HiPlatform products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurfanti/hiplatform-testing-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurfanti/hiplatform-testing-guide/issues"
+  },
+  "homepage": "https://github.com/arthurfanti/hiplatform-testing-guide#readme",
+  "devDependencies": {
+    "docpress": "0.8.2"
+  }
+}
