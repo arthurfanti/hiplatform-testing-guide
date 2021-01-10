@@ -4,7 +4,8 @@
   "description": "Ambitious guide to try and document the software testing process for HiPlatform products",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "docpress b && git-update-ghpages -b main arthurfanti.github.io/hiplatform-testing-guide _docpress"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/arthurfanti/hiplatform-testing-guide#readme",
   "devDependencies": {
-    "docpress": "0.8.2"
+    "docpress": "0.8.2",
+    "git-update-ghpages": "1.3.0"
   }
 }
