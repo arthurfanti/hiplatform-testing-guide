@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "docpress b && git-update-ghpages -b main arthurfanti.github.io/hiplatform-testing-guide _docpress"
+    "deploy": "docpress b && git-update-ghpages -b gh-pages arthurfanti/hiplatform-testing-guide _docpress"
   },
   "repository": {
     "type": "git",
