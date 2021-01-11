@@ -2,25 +2,69 @@
   "toc": {
     "sections": [
       {
-        "title": "Getting started",
+        "title": "Guia de testes Hi",
         "source": "README.md",
         "url": "index.html",
         "slug": "index"
       },
       {
-        "title": "Introduction",
+        "title": "Introdução",
         "sections": [
           {
-            "title": "Where we are",
-            "source": "docs/Intro/where-we-are.md",
-            "url": "Intro/where-we-are.html",
-            "slug": "introwhere-we-are"
+            "title": "Motivação",
+            "source": "docs/Intro/motivation.md",
+            "url": "Intro/motivation.html",
+            "slug": "intromotivation"
           },
           {
-            "title": "Where we wanna be",
-            "source": "docs/Intro/where-we-wanna-be.md",
-            "url": "Intro/where-we-wanna-be.html",
-            "slug": "introwhere-we-wanna-be"
+            "title": "Ponto de partida",
+            "source": "docs/Intro/current.md",
+            "url": "Intro/current.html",
+            "slug": "introcurrent"
+          },
+          {
+            "title": "Onde queremos chegar?",
+            "source": "docs/Intro/goal.md",
+            "url": "Intro/goal.html",
+            "slug": "introgoal"
+          }
+        ]
+      },
+      {
+        "title": "Ferramentas e metodologia",
+        "source": "docs/Tools/README.md",
+        "url": "Tools/index.html",
+        "slug": "tools",
+        "headings": [
+          {
+            "title": "O que vamos usar?",
+            "depth": 3,
+            "id": "o-que-vamos-usar"
+          },
+          {
+            "title": "Como vamos usar?",
+            "depth": 3,
+            "id": "como-vamos-usar"
+          }
+        ],
+        "sections": [
+          {
+            "title": "Test-driven development",
+            "source": "docs/Tools/TDD.md",
+            "url": "Tools/TDD.html",
+            "slug": "toolstdd"
+          },
+          {
+            "title": "React testing library",
+            "source": "docs/Tools/RTL.md",
+            "url": "Tools/RTL.html",
+            "slug": "toolsrtl"
+          },
+          {
+            "title": "Jest",
+            "source": "docs/Tools/jest.md",
+            "url": "Tools/jest.html",
+            "slug": "toolsjest"
           }
         ]
       }
@@ -29,26 +73,74 @@
   "index": {
     "index.html": {
       "source": "README.md",
-      "title": "Getting started",
-      "pageTitle": "Getting started",
+      "title": "Guia de testes Hi",
+      "pageTitle": "Guia de testes Hi",
       "slug": "index"
     },
-    "Intro/where-we-are.html": {
-      "source": "docs/Intro/where-we-are.md",
-      "title": "Where we are - Getting started",
-      "pageTitle": "Where we are",
-      "slug": "introwhere-we-are"
+    "Intro/motivation.html": {
+      "source": "docs/Intro/motivation.md",
+      "title": "Motivação - Guia de testes Hi",
+      "pageTitle": "Motivação",
+      "slug": "intromotivation"
     },
-    "Intro/where-we-wanna-be.html": {
-      "source": "docs/Intro/where-we-wanna-be.md",
-      "title": "Where we wanna be - Getting started",
-      "pageTitle": "Where we wanna be",
-      "slug": "introwhere-we-wanna-be"
+    "Intro/current.html": {
+      "source": "docs/Intro/current.md",
+      "title": "Ponto de partida - Guia de testes Hi",
+      "pageTitle": "Ponto de partida",
+      "slug": "introcurrent"
+    },
+    "Intro/goal.html": {
+      "source": "docs/Intro/goal.md",
+      "title": "Onde queremos chegar? - Guia de testes Hi",
+      "pageTitle": "Onde queremos chegar?",
+      "slug": "introgoal"
+    },
+    "Tools/index.html": {
+      "source": "docs/Tools/README.md",
+      "title": "Ferramentas e metodologia - Guia de testes Hi",
+      "pageTitle": "Ferramentas e metodologia",
+      "slug": "tools",
+      "headings": [
+        {
+          "title": "O que vamos usar?",
+          "depth": 3,
+          "id": "o-que-vamos-usar"
+        },
+        {
+          "title": "Como vamos usar?",
+          "depth": 3,
+          "id": "como-vamos-usar"
+        }
+      ]
+    },
+    "Tools/TDD.html": {
+      "source": "docs/Tools/TDD.md",
+      "title": "Test-driven development - Guia de testes Hi",
+      "pageTitle": "Test-driven development",
+      "slug": "toolstdd"
+    },
+    "Tools/RTL.html": {
+      "source": "docs/Tools/RTL.md",
+      "title": "React testing library - Guia de testes Hi",
+      "pageTitle": "React testing library",
+      "slug": "toolsrtl"
+    },
+    "Tools/jest.html": {
+      "source": "docs/Tools/jest.md",
+      "title": "Jest - Guia de testes Hi",
+      "pageTitle": "Jest",
+      "slug": "toolsjest"
     }
   },
   "sources": {
     "README.md": "index.html",
-    "docs/Intro/where-we-are.md": "Intro/where-we-are.html",
-    "docs/Intro/where-we-wanna-be.md": "Intro/where-we-wanna-be.html"
+    "docs/Intro/motivation.md": "Intro/motivation.html",
+    "docs/Intro/current.md": "Intro/current.html",
+    "docs/Intro/goal.md": "Intro/goal.html",
+    "docs/Tools/README.md": "Tools/index.html",
+    "docs/Tools/TDD.md": "Tools/TDD.html",
+    "docs/Tools/RTL.md": "Tools/RTL.html",
+    "docs/Tools/jest.md": "Tools/jest.html",
+    "docs/_config.yml": "_config.yml"
   }
 }
